@@ -31,9 +31,6 @@ function App() {
                             <li className="nav-item">
                                 <a className="nav-link js-scroll" href="#work">Work</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link js-scroll" href="#blog">Blog</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -175,7 +172,7 @@ function App() {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="s-title">Java</h2>
-                                    <p className="s-description text-center">
+                                    <p className="s-description text-center mb-5">
                                         I have created many functional backend applications in Java programming language
                                         during my career
                                     </p>
@@ -194,12 +191,9 @@ function App() {
                                 </div>
                                 <div className="service-content">
                                     <h2 className="s-title">React</h2>
-                                    <p className="s-description text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
-                                        eaque
-                                        autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.
+                                    <p className="s-description text-center mb-4">
+                                        I have developed the external design of many websites using the React Framework
+                                        and connected them to the Java programming language
                                     </p>
                                 </div>
                             </div>
@@ -215,13 +209,10 @@ function App() {
 </svg></span>
                                 </div>
                                 <div className="service-content">
-                                    <h2 className="s-title">Photography</h2>
+                                    <h2 className="s-title">Postgres SQl</h2>
                                     <p className="s-description text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
-                                        eaque
-                                        autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.
+                                        I wrote queries to many programs through the postgres sql database and connected
+                                        it to the java programming language
                                     </p>
                                 </div>
                             </div>
@@ -229,17 +220,15 @@ function App() {
                         <div className="col-md-4">
                             <div className="service-box">
                                 <div className="service-ico">
-                                        <span className="ico-circle"><i
-                                            className="ion-android-phone-portrait"></i></span>
+                                    <span className="ico-circle"><img style={{marginTop: "-20%"}} width="70" height="70"
+                                                                      src="https://img.icons8.com/ios/50/js.png"
+                                                                      alt="js"/></span>
                                 </div>
                                 <div className="service-content">
-                                    <h2 className="s-title">Responsive Design</h2>
+                                    <h2 className="s-title">Java Script</h2>
                                     <p className="s-description text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
-                                        eaque
-                                        autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.
+                                        In javascript programming language, I have created and implemented many
+                                        functions for external design
                                     </p>
                                 </div>
                             </div>
@@ -247,16 +236,15 @@ function App() {
                         <div className="col-md-4">
                             <div className="service-box">
                                 <div className="service-ico">
-                                    <span className="ico-circle"><i className="ion-paintbrush"></i></span>
+                                    <span className="ico-circle">
+                                        <img style={{marginTop: "-20px"}} width="70" height="70"
+                                             src="https://img.icons8.com/ios/50/html.png" alt="html"/>
+                                    </span>
                                 </div>
                                 <div className="service-content">
-                                    <h2 className="s-title">Graphic Design</h2>
+                                    <h2 className="s-title">HTML</h2>
                                     <p className="s-description text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
-                                        eaque
-                                        autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.
+                                        I created the framework of the website windows using Html
                                     </p>
                                 </div>
                             </div>
@@ -264,16 +252,17 @@ function App() {
                         <div className="col-md-4">
                             <div className="service-box">
                                 <div className="service-ico">
-                                    <span className="ico-circle"><i className="ion-stats-bars"></i></span>
+                                    <span className="ico-circle"><img style={{marginTop: "-20px"}} width="70"
+                                                                      height="70"
+                                                                      src="https://img.icons8.com/ios/50/css.png"
+                                                                      alt="css"/></span>
                                 </div>
                                 <div className="service-content">
-                                    <h2 className="s-title">Marketing Services</h2>
-                                    <p className="s-description text-center">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni adipisci
-                                        eaque
-                                        autem fugiat! Quia,
-                                        provident vitae! Magni
-                                        tempora perferendis eum non provident.
+                                    <h2 className="s-title">CSS</h2>
+                                    <p className="s-description text-center mb-3">
+                                        I used CSS to style web pages
+                                        <br/>
+                                        <br/>
                                     </p>
                                 </div>
                             </div>
@@ -281,7 +270,8 @@ function App() {
                     </div>
                 </div>
             </section>
-            <div className="section-counter paralax-mf bg-image" style={{backgroundImage: `url(${countersbg}`}}>
+            <div className="section-counter paralax-mf bg-image" id={"work"}
+                 style={{backgroundImage: `url(${countersbg}`}}>
                 <div className="overlay-mf"></div>
                 <div className="container">
                     <div className="row">
@@ -291,7 +281,7 @@ function App() {
                                     <span className="ico-circle"><i className="ion-checkmark-round"></i></span>
                                 </div>
                                 <div className="counter-num">
-                                    <p className="counter">450</p>
+                                    <p className="counter">15+</p>
                                     <span className="counter-text">WORKS COMPLETED</span>
                                 </div>
                             </div>
@@ -302,7 +292,7 @@ function App() {
                                     <span className="ico-circle"><i className="ion-ios-calendar-outline"></i></span>
                                 </div>
                                 <div className="counter-num">
-                                    <p className="counter">15</p>
+                                    <p className="counter">3+</p>
                                     <span className="counter-text">YEARS OF EXPERIENCE</span>
                                 </div>
                             </div>
@@ -313,7 +303,7 @@ function App() {
                                     <span className="ico-circle"><i className="ion-ios-people"></i></span>
                                 </div>
                                 <div className="counter-num">
-                                    <p className="counter">550</p>
+                                    <p className="counter">15+</p>
                                     <span className="counter-text">TOTAL CLIENTS</span>
                                 </div>
                             </div>
@@ -324,7 +314,7 @@ function App() {
                                     <span className="ico-circle"><i className="ion-ribbon-a"></i></span>
                                 </div>
                                 <div className="counter-num">
-                                    <p className="counter">36</p>
+                                    <p className="counter">5+</p>
                                     <span className="counter-text">AWARD WON</span>
                                 </div>
                             </div>
@@ -332,7 +322,7 @@ function App() {
                     </div>
                 </div>
             </div>
-          <section className="paralax-mf footer-paralax bg-image sect-mt4 route"
+            <section className="paralax-mf footer-paralax bg-image sect-mt4 route"
                      style={{backgroundImage: `${overlaybg}`}}>
                 <footer>
                     <div className="container">
@@ -343,7 +333,7 @@ function App() {
                                         Reserved</p>
                                     <div className="credits">
                                         Designed by <a className={"text-dark "} style={{textDecoration: "none"}}
-                                                       href="https://github.com/mukhtarovich-dev.com/">Mukhatovich</a>
+                                                       href="https://instagram.com/dilbekk070">Mukhatovich</a>
                                     </div>
                                 </div>
                             </div>
