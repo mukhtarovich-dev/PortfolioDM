@@ -75,7 +75,7 @@ function App() {
                                                     </p>
                                                     <p><span className="title-s">Phone: </span>
                                                         <a style={{textDecoration: "none"}} className="btns"
-                                                           href="tel:+998 90 870 32 55">+998 90 870 32 55</a>
+                                                           href="tel:+998 77 070 02 79">+998 77 070-02-79</a>
                                                     </p>
                                                 </div>
                                             </div>
